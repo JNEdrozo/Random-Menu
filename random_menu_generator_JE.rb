@@ -1,5 +1,5 @@
 #USER INTRO PROMPT------------------------------------
-introduction <<YES
+introduction = <<YES
 "Welcome to the Regional Randomized Menu Generator! To begin, enter:
 \n(A) If you would like to generate a menu from our default menu items or,
 \n(B) If you would like to enter your own menu item details."
@@ -112,7 +112,7 @@ end
 
 
 #_______________________________________________________________________________
-introduction
+puts introduction
 
 begin_option = gets.chomp.upcase
 
